@@ -26,7 +26,7 @@
   }
   function setNow(item)
   {
-    modalTitle = `Have you done "${item?.Name}" task now`
+    modalTitle = `Have you done "${item?.Name}" task now?`
     modalCallback = function()
     {
       item.Date = new Date()
@@ -37,7 +37,7 @@
   }
   function remove(item,index)
   {
-    modalTitle = `Do you want to remove "${item?.Name}"`
+    modalTitle = `Do you want to remove "${item?.Name}"?`
     modalCallback = function()
     {
       list.splice(index, 1)
