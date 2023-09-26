@@ -1,0 +1,40 @@
+:root{
+  --white: #c6c9cf;
+  --overlay: #787d88;
+  --primary: #3a6683;
+  --secondary: #4eb8d3;
+  --background: #1b2127;
+  --highlight: #363c41;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-size: 12pt;
+  color: var(--white);
+  font-family: proximaNova;
+  background-color: var(--background);
+}
+
+
+button{
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+
+input[type="text"]{
+  border: none;
+  padding: 10px 20px;
+}
+
+.red{
+  --primary: #833a3a;
+}
+
+.green{
+  --primary: #3a8344;
+}
