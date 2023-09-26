@@ -13,7 +13,7 @@ a new task will appear, you can set its name
 
 ![image](https://github.com/Thiago099/repeatable-task-manager/assets/66787043/715db895-f890-4c46-af44-18e46d743202)
 
-then you can go back to the main screen by clicking in use or refeshing the page
+Uou can now go back to the main screen by clicking in use or refeshing the page
 
 ![image](https://github.com/Thiago099/repeatable-task-manager/assets/66787043/e5e3e51d-778b-4b89-9c05-9e1a351bc0ec)
 
