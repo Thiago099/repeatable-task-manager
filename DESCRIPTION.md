@@ -17,6 +17,6 @@ you can now go back to the main screen by clicking in use or refeshing the page
 
 ![image](https://github.com/Thiago099/repeatable-task-manager/assets/66787043/e5e3e51d-778b-4b89-9c05-9e1a351bc0ec)
 
-every time you click in did it now, the time you last did the task will be saved in your broser and displayed like so:
+every time you click in "did it now", the time you last did the task will be saved in your broser and displayed like so:
 
 ![image](https://github.com/Thiago099/repeatable-task-manager/assets/66787043/1062bcf4-7e72-45f4-a38d-56538a727865)
