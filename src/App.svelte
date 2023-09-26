@@ -1,9 +1,8 @@
 <script>
 
-
   import moment from "moment"
   import Modal from "./components/Modal.svelte";
-  let list = JSON.parse(localStorage.getItem("data"))
+  let list = JSON.parse(localStorage.getItem("data")??"[]")
   for(const item of list)
   {
     if(item.Date != null)
@@ -61,7 +60,7 @@
 
   function save()
   {
-    localStorage.setItem("data",JSON.stringify(list))
+    localStorage.setItem("data", JSON.stringify(list))
   }
 </script>
 <Modal bind:visible={modalVisible} width="600px">
@@ -91,9 +90,9 @@
         <input type="text" bind:value={item.Name} on:blur={save}>
       {:else if mode == "use"}
         <button on:click={()=>setNow(item)} class="green"><i class="fa-solid fa-check"></i> Did it now</button>
-        <div style="width:200px">{item.Name}</div>
+        <div style="width:200px;overflow:hidden;text-overflow:ellipsis;">{item.Name}</div>
         {/if}
-        <div>
+        <div style="width:100px">
           {#if item.Date == null}
             Never
           {:else}
